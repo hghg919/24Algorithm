@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{27d298fc-448e-4b40-919a-76c26b0abccb}</ProjectGuid>
+    <ProjectGuid>{12cb4d5f-7e8d-4521-823c-943405601ab0}</ProjectGuid>
     <RootNamespace>Algorithm</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,12 +127,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DivideAndConquer.cpp" />
+    <ClCompile Include="DynamicProgramming.cpp" />
+    <ClCompile Include="InputReference.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pow.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="array2D.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="BackTracking.h" />
+    <ClInclude Include="DataStructure.h" />
+    <ClInclude Include="DivideAndConquer.h" />
+    <ClInclude Include="DynamicProgramming.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="Greedy.h" />
+    <ClInclude Include="InputReference.h" />
     <ClInclude Include="Lecture.h" />
+    <ClInclude Include="MST.h" />
+    <ClInclude Include="Pow.h" />
+    <ClInclude Include="Problem.h" />
+    <ClInclude Include="Regular Expression.h" />
     <ClInclude Include="Sort.h" />
+    <ClInclude Include="timeChecker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
